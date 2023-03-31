@@ -45,8 +45,6 @@ makeFreshPesto();
 //Simple fix. Corrected func to function. If the function is not entirely written out we are not defining what we want our code to do -
 //which is to list the ingredients and directions for making fresh pesto.
 
-
-
 //  EX 4:
 function average(num1, num2) {
   var sum = num1 + num2;
