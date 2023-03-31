@@ -40,3 +40,20 @@ console.log(firstName.startsWith("J"));
 // Call a different built-in JavaScript method on each of your variables. 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 // Include comments above each method call explaining the impact and return value of that method.
+
+var celebrities = ["Selena", "Brandon", "Newton", "Bronte"];
+
+celebrities.sort();
+
+console.log(celebrities);
+
+// The sort method is called on all elements in the array.
+// The sort method returns true if the data sorts the elements alphabetically .
+// The console.log() prints the return value of [ 'Brandon', 'Bronte', 'Newton', 'Selena' ] so the return value is true.
+
+var ages = [24, 28, 84, 39];
+
+console.log(ages.copyWithin(1, 3));
+
+//I called out the copyWithin() method to shift the data in the above array
+//The return prints out the same array but with the index positions of 1 and 3 switched without modifying the length of the array. 
